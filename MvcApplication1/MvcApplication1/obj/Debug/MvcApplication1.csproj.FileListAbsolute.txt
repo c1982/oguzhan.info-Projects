@@ -1,0 +1,5 @@
+K:\Projects\MvcApplication1\MvcApplication1\bin\MvcApplication1.dll
+K:\Projects\MvcApplication1\MvcApplication1\bin\MvcApplication1.pdb
+K:\Projects\MvcApplication1\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+K:\Projects\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.dll
+K:\Projects\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.pdb

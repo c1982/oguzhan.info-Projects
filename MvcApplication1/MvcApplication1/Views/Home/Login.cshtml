@@ -1,0 +1,31 @@
+﻿@model MvcApplication1.Models.UserModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Login</title>
+    <script src="../../Scripts/jquery-1.4.4.min.js" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm()) {
+            @Html.ValidationSummary(true)
+
+            @Html.LabelFor(m => m.Name)<br />
+            @Html.TextBoxFor(m => m.Name)
+            @Html.ValidationMessageFor(m => m.Name)
+
+            <p>
+                <input type="submit" value="Go" />
+            </p>
+        }
+    </div>
+</body>
+</html>

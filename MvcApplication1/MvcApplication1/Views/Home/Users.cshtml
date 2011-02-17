@@ -1,0 +1,19 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>User</title>
+</head>
+<body>
+    <div>
+        Merhaba, @Session["isLogIn"]
+
+        <br />
+        @Html.ActionLink("Anasayfa","Index")
+    </div>
+</body>
+</html>
